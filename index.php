@@ -4,9 +4,9 @@
  * This sample app is provided to kickstart your experience using Facebook's
  * resources for developers.  This sample app provides examples of several
  * key concepts, including authentication, the Graph API, and FQL (Facebook
- * Query Language). Please visit the docs at 'developers.facebook.com/docs'
+ * Query Language). velopers.facebook.com/docs'
  * to learn more about the resources available to you
- */
+ */Please visit the docs at 'de
 
 // Provides access to app specific values such as your app id and app secret.
 // Defined in 'AppInfo.php'
@@ -235,20 +235,22 @@ $app_name = idx($app_info, 'name', '');
    
     <header class="clearfix"></header>
   <section id="samples" class="clearfix"></section>
-  <div>
-  <h1 align="center"> Welcome to Bingo Game ! </h1>
+  <div style="background:#333333;height:50px;padding-top:10px">
+  <h1 style="text-align:center;color:#FFFFFF"> Welcome to Bingo Game ! </h1>
   </div>
-  <div>
- <p>
-   <script type="text/javascript">
-AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','700','height','600','src','game/bingo','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','game/bingo' ); //end AC code
-</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="700" height="600">
-     <param name="movie" value="game/bingo.swf">
-     <param name="quality" value="high">
-     <embed src="https://www.dropbox.com/s/dkuise5vkago8i3/bingo.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="700" height="600"></embed>
-   </object></noscript>
- </p>  
-  </div>
+  <div style="background:#CCCCCC;width:auto;height:50px; padding-right:25px; padding-top:25px"><p style="color:#C5FF8A; font-size:25px; text-align:left; float:right"><em>Developer : Anas M</em></p></div>
   
-</body>
+  </div>
+  <!--- The following Div have my flash file -->
+  <div >
+  <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','700','height','600','src','../Documents/Unnamed Site 2/bingo','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','http://wewontbrokeup.webs.com/bingo.swf' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="700" height="600">
+    <param name="movie" value="../Documents/Unnamed Site 2/bingo.swf">
+    <param name="quality" value="high">
+    <embed src="http://wewontbrokeup.webs.com/bingo.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="700" height="600"></embed>
+  </object></noscript>
+  
+  </div>
+  </body>
 </html>
